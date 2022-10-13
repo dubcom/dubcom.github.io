@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      content: [
+    './src/**/*.tsx'
+  ],
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <title>Portfólio Trybe</title>
+</head>
+<body class="p-4  items-center flex flex-col container">
+  <header class="px-4 container  items-center bg-red-700 text-white flex flex-row">
+    <div class="container mx-auto px-4 py-2">
+      <a href="index.html" class="text-2xl upcasse font-bold">Portfólio Trybe</a>
+      
+    </div>
+    <div> 
+      <nav class="flex flex-row justify-content">
+        <a href="#sobre" class="px-4 py-2">Sobre</a>
+        <a href="#contato" class="px-4 py-2">Contato</a>
+        
+      </nav>
+    </div>
+    <div class="text-white">
+      <a href="https://github.com/dubcom" class="px-4 py-2">
+        <img  src="img/github.svg">
+      </a>
+    </div>
+  </header>
+  <main class="items-center container bg-gray-200">
+  <h1 class="items-center" >
+    Hello world!
+  </h1>
+  <div class="items-center" > 
+    <img src="img/trybe.png" alt="Logo da Trybe" class="w-1/2">
+  </div>
+  <div> 
+    <p> nome e função</p>
+  </div>
+  </main>
+  <footer class="container p-4 bg-gray-200">
+    <div class="w-screen flex">
+      <div class="w-1/2">
+        <p>Contato</p>
+        <p>Telefone</p>
+        <p>Email</p>
+      </div>
+      <div class="w-1/2">
+        <p>Redes sociais</p>
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>Twitter</p>
+      </div>
+
+</div>
+
+        </div>
+        </footer>
+</body>
+</html>
